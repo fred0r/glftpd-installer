@@ -1,3 +1,15 @@
+## 11.x -
+
+### Updated
+
+- Changed default setting in zsconfig.h that makes pzs-ng no longer rescan 0-byte files
+- Added support for a mirror website in install.sh when grabbing glFTPd in case the main website is down where https://glftpd.io remain as the main source and an added warning message with exit if none are available
+- Added support for a mirror website in glftpd-version-check.sh and update_gl.sh
+
+### Fixes
+
+- glFTPd website https://glftpd.io down broke the installer, changed source to https://mirror.glftpd.nl.eu.org when grabbing glFTPd
+
 ## 11.1 - 2024-08-04
 
 ### Updated
